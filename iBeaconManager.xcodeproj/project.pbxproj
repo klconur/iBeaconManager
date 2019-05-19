@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		473FB98E19925EFF00AC3D8D /* libNoteBEKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 473FB96719925ED500AC3D8D /* libNoteBEKit.a */; };
+		473FB99C19925FF200AC3D8D /* ZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 473FB99B19925FF200AC3D8D /* ZoomScrollView.m */; };
+		473FB9A11992604400AC3D8D /* UIImageView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 473FB9A01992604400AC3D8D /* UIImageView+Util.m */; };
+		473FB9A41992609600AC3D8D /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 473FB9A31992609600AC3D8D /* NSString+Util.m */; };
+		473FB9A6199260C900AC3D8D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473FB9A5199260C900AC3D8D /* ImageIO.framework */; };
+		473FB9B01992CBC400AC3D8D /* DraggableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 473FB9AF1992CBC400AC3D8D /* DraggableImageView.m */; };
+		473FB9B81993749F00AC3D8D /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 473FB9B51993749F00AC3D8D /* SVProgressHUD.bundle */; };
+		473FB9B91993749F00AC3D8D /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 473FB9B71993749F00AC3D8D /* SVProgressHUD.m */; };
+		4763AA271CCB5CA1003C2A06 /* libAFNetworkActivityLogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4763AA0C1CCB5CA1003C2A06 /* libAFNetworkActivityLogger.a */; };
+		4763AA281CCB5CA1003C2A06 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4763AA0E1CCB5CA1003C2A06 /* libAFNetworking.a */; };
+		4763AA291CCB5CA1003C2A06 /* libDACircularProgress.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4763AA101CCB5CA1003C2A06 /* libDACircularProgress.a */; };
+		4763AA2A1CCB5CA1003C2A06 /* libFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4763AA121CCB5CA1003C2A06 /* libFMDB.a */; };
+		4763AA2B1CCB5CA1003C2A06 /* libJSQMessagesViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4763AA141CCB5CA1003C2A06 /* libJSQMessagesViewController.a */; };
+		4763AA2C1CCB5CA1003C2A06 /* libJSQSystemSoundPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4763AA161CCB5CA1003C2A06 /* libJSQSystemSoundPlayer.a */; };
+		4763AA2D1CCB5CA1003C2A06 /* libMBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4763AA181CCB5CA1003C2A06 /* libMBProgressHUD.a */; };
+		4763AA2E1CCB5CA1003C2A06 /* libMWPhotoBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4763AA1A1CCB5CA1003C2A06 /* libMWPhotoBrowser.a */; };
+		4763AA2F1CCB5CA1003C2A06 /* libMYBlurIntroductionView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4763AA1E1CCB5CA1003C2A06 /* libMYBlurIntroductionView.a */; };
+		4763AA301CCB5CA1003C2A06 /* libMZDayPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4763AA201CCB5CA1003C2A06 /* libMZDayPicker.a */; };
+		4763AA311CCB5CA1003C2A06 /* libRESideMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4763AA221CCB5CA1003C2A06 /* libRESideMenu.a */; };
+		4763AA321CCB5CA1003C2A06 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4763AA241CCB5CA1003C2A06 /* libSDWebImage.a */; };
+		4763AA331CCB5CA1003C2A06 /* libSTTwitter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4763AA261CCB5CA1003C2A06 /* libSTTwitter.a */; };
+		4763AA371CCB5CEA003C2A06 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4763AA361CCB5CEA003C2A06 /* Photos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4763AA391CCB5DDA003C2A06 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4763AA381CCB5DDA003C2A06 /* CoreFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		47AFBFEC199257B1009C7B15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AFBFEB199257B1009C7B15 /* Foundation.framework */; };
+		47AFBFEE199257B1009C7B15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AFBFED199257B1009C7B15 /* CoreGraphics.framework */; };
+		47AFBFF0199257B1009C7B15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AFBFEF199257B1009C7B15 /* UIKit.framework */; };
+		47AFBFF6199257B1009C7B15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47AFBFF4199257B1009C7B15 /* InfoPlist.strings */; };
+		47AFBFF8199257B1009C7B15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AFBFF7199257B1009C7B15 /* main.m */; };
+		47AFBFFC199257B1009C7B15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AFBFFB199257B1009C7B15 /* AppDelegate.m */; };
+		47AFBFFF199257B1009C7B15 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AFBFFD199257B1009C7B15 /* Main_iPhone.storyboard */; };
+		47AFC002199257B1009C7B15 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AFC000199257B1009C7B15 /* Main_iPad.storyboard */; };
+		47AFC005199257B1009C7B15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AFC004199257B1009C7B15 /* ViewController.m */; };
+		47AFC007199257B1009C7B15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47AFC006199257B1009C7B15 /* Images.xcassets */; };
+		47AFC00E199257B1009C7B15 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AFC00D199257B1009C7B15 /* XCTest.framework */; };
+		47AFC00F199257B1009C7B15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AFBFEB199257B1009C7B15 /* Foundation.framework */; };
+		47AFC010199257B1009C7B15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AFBFEF199257B1009C7B15 /* UIKit.framework */; };
+		47AFC018199257B1009C7B15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47AFC016199257B1009C7B15 /* InfoPlist.strings */; };
+		47AFC01A199257B1009C7B15 /* iBeaconManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AFC019199257B1009C7B15 /* iBeaconManagerTests.m */; };
+		47AFC03519925C8A009C7B15 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AFC03419925C8A009C7B15 /* libsqlite3.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		473FB96619925ED500AC3D8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473FB96119925ED500AC3D8D /* NoteBEKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4795BF7D18A589C700A1E85E;
+			remoteInfo = NoteBEKit;
+		};
+		473FB96819925ED500AC3D8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473FB96119925ED500AC3D8D /* NoteBEKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4795BF8D18A589C700A1E85E;
+			remoteInfo = NoteBEKitTests;
+		};
+		473FB97819925EE900AC3D8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473FB96A19925EE900AC3D8D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4427A6012131466FA4B184BA;
+			remoteInfo = Pods;
+		};
+		4763AA0B1CCB5CA1003C2A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473FB96A19925EE900AC3D8D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83502E8BA1E2549B455F8577C36938CF;
+			remoteInfo = AFNetworkActivityLogger;
+		};
+		4763AA0D1CCB5CA1003C2A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473FB96A19925EE900AC3D8D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C975128516D2F5B5EA94563A19528F64;
+			remoteInfo = AFNetworking;
+		};
+		4763AA0F1CCB5CA1003C2A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473FB96A19925EE900AC3D8D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1A07E04BD8F7E77B4B94A5D88D2FB34;
+			remoteInfo = DACircularProgress;
+		};
+		4763AA111CCB5CA1003C2A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473FB96A19925EE900AC3D8D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50B4610E71CF8F3B3C12260BC3769E1E;
+			remoteInfo = FMDB;
+		};
+		4763AA131CCB5CA1003C2A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473FB96A19925EE900AC3D8D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50F80FF32AC3049E20C69CD38D14B0FD;
+			remoteInfo = JSQMessagesViewController;
+		};
+		4763AA151CCB5CA1003C2A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473FB96A19925EE900AC3D8D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8DFAF33D5EB68064B19543DA715DADB;
+			remoteInfo = JSQSystemSoundPlayer;
+		};
+		4763AA171CCB5CA1003C2A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473FB96A19925EE900AC3D8D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F96FE287374CB155677022516513D4A9;
+			remoteInfo = MBProgressHUD;
+		};
+		4763AA191CCB5CA1003C2A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473FB96A19925EE900AC3D8D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D7D5D3B60FD7BE5CD384DC8997D6AAF7;
+			remoteInfo = MWPhotoBrowser;
+		};
+		4763AA1B1CCB5CA1003C2A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473FB96A19925EE900AC3D8D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 697ED09EF0139A1C57FA2EDB1094FD95;
+			remoteInfo = "MWPhotoBrowser-MWPhotoBrowser";
+		};
+		4763AA1D1CCB5CA1003C2A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473FB96A19925EE900AC3D8D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 20D7668DFA3B32754597A0433501AF93;
+			remoteInfo = MYBlurIntroductionView;
+		};
+		4763AA1F1CCB5CA1003C2A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473FB96A19925EE900AC3D8D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 72A46DCD88A25D48A07F5FF935C8CB33;
+			remoteInfo = MZDayPicker;
+		};
+		4763AA211CCB5CA1003C2A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473FB96A19925EE900AC3D8D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8CA0D4AF9F66C9F24B31D448877D3B22;
+			remoteInfo = RESideMenu;
+		};
+		4763AA231CCB5CA1003C2A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473FB96A19925EE900AC3D8D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B299701CC5ADA03E3A025F31110A7FC6;
+			remoteInfo = SDWebImage;
+		};
+		4763AA251CCB5CA1003C2A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473FB96A19925EE900AC3D8D /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2FB6FCDF0159699CF01A79C57D605D16;
+			remoteInfo = STTwitter;
+		};
+		47AFC011199257B1009C7B15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47AFBFE0199257B1009C7B15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47AFBFE7199257B1009C7B15;
+			remoteInfo = NotebeAdmin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		473FB96119925ED500AC3D8D /* NoteBEKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NoteBEKit.xcodeproj; path = ../../../../Personal/iOSWorkspace/NoteBEKit/NoteBEKit.xcodeproj; sourceTree = "<group>"; };
+		473FB96A19925EE900AC3D8D /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = ../../../../Personal/iOSWorkspace/NoteBEKit/Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		473FB99A19925FF200AC3D8D /* ZoomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomScrollView.h; sourceTree = "<group>"; };
+		473FB99B19925FF200AC3D8D /* ZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomScrollView.m; sourceTree = "<group>"; };
+		473FB99F1992603400AC3D8D /* UIImageView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Util.h"; sourceTree = "<group>"; };
+		473FB9A01992604400AC3D8D /* UIImageView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Util.m"; sourceTree = "<group>"; };
+		473FB9A21992609600AC3D8D /* NSString+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
+		473FB9A31992609600AC3D8D /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
+		473FB9A5199260C900AC3D8D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		473FB9AE1992CBC400AC3D8D /* DraggableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableImageView.h; sourceTree = "<group>"; };
+		473FB9AF1992CBC400AC3D8D /* DraggableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableImageView.m; sourceTree = "<group>"; };
+		473FB9B51993749F00AC3D8D /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		473FB9B61993749F00AC3D8D /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		473FB9B71993749F00AC3D8D /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		4763AA361CCB5CEA003C2A06 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		4763AA381CCB5DDA003C2A06 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		47AFBFE8199257B1009C7B15 /* NotebeAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotebeAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AFBFEB199257B1009C7B15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47AFBFED199257B1009C7B15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		47AFBFEF199257B1009C7B15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		47AFBFF3199257B1009C7B15 /* iBeaconManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBeaconManager-Info.plist"; sourceTree = "<group>"; };
+		47AFBFF5199257B1009C7B15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47AFBFF7199257B1009C7B15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47AFBFF9199257B1009C7B15 /* iBeaconManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iBeaconManager-Prefix.pch"; sourceTree = "<group>"; };
+		47AFBFFA199257B1009C7B15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47AFBFFB199257B1009C7B15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47AFBFFE199257B1009C7B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		47AFC001199257B1009C7B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		47AFC003199257B1009C7B15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		47AFC004199257B1009C7B15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		47AFC006199257B1009C7B15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		47AFC00C199257B1009C7B15 /* NotebeAdminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotebeAdminTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AFC00D199257B1009C7B15 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		47AFC015199257B1009C7B15 /* iBeaconManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBeaconManagerTests-Info.plist"; sourceTree = "<group>"; };
+		47AFC017199257B1009C7B15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47AFC019199257B1009C7B15 /* iBeaconManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBeaconManagerTests.m; sourceTree = "<group>"; };
+		47AFC03419925C8A009C7B15 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47AFBFE5199257B1009C7B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4763AA391CCB5DDA003C2A06 /* CoreFoundation.framework in Frameworks */,
+				4763AA371CCB5CEA003C2A06 /* Photos.framework in Frameworks */,
+				4763AA271CCB5CA1003C2A06 /* libAFNetworkActivityLogger.a in Frameworks */,
+				4763AA281CCB5CA1003C2A06 /* libAFNetworking.a in Frameworks */,
+				4763AA291CCB5CA1003C2A06 /* libDACircularProgress.a in Frameworks */,
+				4763AA2A1CCB5CA1003C2A06 /* libFMDB.a in Frameworks */,
+				4763AA2B1CCB5CA1003C2A06 /* libJSQMessagesViewController.a in Frameworks */,
+				4763AA2C1CCB5CA1003C2A06 /* libJSQSystemSoundPlayer.a in Frameworks */,
+				4763AA2D1CCB5CA1003C2A06 /* libMBProgressHUD.a in Frameworks */,
+				4763AA2E1CCB5CA1003C2A06 /* libMWPhotoBrowser.a in Frameworks */,
+				4763AA2F1CCB5CA1003C2A06 /* libMYBlurIntroductionView.a in Frameworks */,
+				4763AA301CCB5CA1003C2A06 /* libMZDayPicker.a in Frameworks */,
+				4763AA311CCB5CA1003C2A06 /* libRESideMenu.a in Frameworks */,
+				4763AA321CCB5CA1003C2A06 /* libSDWebImage.a in Frameworks */,
+				4763AA331CCB5CA1003C2A06 /* libSTTwitter.a in Frameworks */,
+				473FB9A6199260C900AC3D8D /* ImageIO.framework in Frameworks */,
+				473FB98E19925EFF00AC3D8D /* libNoteBEKit.a in Frameworks */,
+				47AFC03519925C8A009C7B15 /* libsqlite3.0.dylib in Frameworks */,
+				47AFBFEE199257B1009C7B15 /* CoreGraphics.framework in Frameworks */,
+				47AFBFF0199257B1009C7B15 /* UIKit.framework in Frameworks */,
+				47AFBFEC199257B1009C7B15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47AFC009199257B1009C7B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AFC00E199257B1009C7B15 /* XCTest.framework in Frameworks */,
+				47AFC010199257B1009C7B15 /* UIKit.framework in Frameworks */,
+				47AFC00F199257B1009C7B15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		473FB96219925ED500AC3D8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				473FB96719925ED500AC3D8D /* libNoteBEKit.a */,
+				473FB96919925ED500AC3D8D /* NoteBEKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		473FB96B19925EE900AC3D8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4763AA0C1CCB5CA1003C2A06 /* libAFNetworkActivityLogger.a */,
+				4763AA0E1CCB5CA1003C2A06 /* libAFNetworking.a */,
+				4763AA101CCB5CA1003C2A06 /* libDACircularProgress.a */,
+				4763AA121CCB5CA1003C2A06 /* libFMDB.a */,
+				4763AA141CCB5CA1003C2A06 /* libJSQMessagesViewController.a */,
+				4763AA161CCB5CA1003C2A06 /* libJSQSystemSoundPlayer.a */,
+				4763AA181CCB5CA1003C2A06 /* libMBProgressHUD.a */,
+				4763AA1A1CCB5CA1003C2A06 /* libMWPhotoBrowser.a */,
+				4763AA1C1CCB5CA1003C2A06 /* MWPhotoBrowser.bundle */,
+				4763AA1E1CCB5CA1003C2A06 /* libMYBlurIntroductionView.a */,
+				4763AA201CCB5CA1003C2A06 /* libMZDayPicker.a */,
+				473FB97919925EE900AC3D8D /* libPods.a */,
+				4763AA221CCB5CA1003C2A06 /* libRESideMenu.a */,
+				4763AA241CCB5CA1003C2A06 /* libSDWebImage.a */,
+				4763AA261CCB5CA1003C2A06 /* libSTTwitter.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47AFBFDF199257B1009C7B15 = {
+			isa = PBXGroup;
+			children = (
+				47AFBFF1199257B1009C7B15 /* iBeaconManager */,
+				47AFC013199257B1009C7B15 /* iBeaconManagerTests */,
+				47AFBFEA199257B1009C7B15 /* Frameworks */,
+				47AFBFE9199257B1009C7B15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47AFBFE9199257B1009C7B15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47AFBFE8199257B1009C7B15 /* NotebeAdmin.app */,
+				47AFC00C199257B1009C7B15 /* NotebeAdminTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47AFBFEA199257B1009C7B15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4763AA381CCB5DDA003C2A06 /* CoreFoundation.framework */,
+				4763AA361CCB5CEA003C2A06 /* Photos.framework */,
+				473FB9A5199260C900AC3D8D /* ImageIO.framework */,
+				473FB96A19925EE900AC3D8D /* Pods.xcodeproj */,
+				473FB96119925ED500AC3D8D /* NoteBEKit.xcodeproj */,
+				47AFC03419925C8A009C7B15 /* libsqlite3.0.dylib */,
+				47AFBFEB199257B1009C7B15 /* Foundation.framework */,
+				47AFBFED199257B1009C7B15 /* CoreGraphics.framework */,
+				47AFBFEF199257B1009C7B15 /* UIKit.framework */,
+				47AFC00D199257B1009C7B15 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47AFBFF1199257B1009C7B15 /* iBeaconManager */ = {
+			isa = PBXGroup;
+			children = (
+				473FB9B51993749F00AC3D8D /* SVProgressHUD.bundle */,
+				473FB9B61993749F00AC3D8D /* SVProgressHUD.h */,
+				473FB9B71993749F00AC3D8D /* SVProgressHUD.m */,
+				47AFBFFA199257B1009C7B15 /* AppDelegate.h */,
+				47AFBFFB199257B1009C7B15 /* AppDelegate.m */,
+				47AFBFFD199257B1009C7B15 /* Main_iPhone.storyboard */,
+				47AFC000199257B1009C7B15 /* Main_iPad.storyboard */,
+				47AFC003199257B1009C7B15 /* ViewController.h */,
+				47AFC004199257B1009C7B15 /* ViewController.m */,
+				473FB99A19925FF200AC3D8D /* ZoomScrollView.h */,
+				473FB99B19925FF200AC3D8D /* ZoomScrollView.m */,
+				47AFC006199257B1009C7B15 /* Images.xcassets */,
+				47AFBFF2199257B1009C7B15 /* Supporting Files */,
+				473FB99F1992603400AC3D8D /* UIImageView+Util.h */,
+				473FB9A01992604400AC3D8D /* UIImageView+Util.m */,
+				473FB9A21992609600AC3D8D /* NSString+Util.h */,
+				473FB9A31992609600AC3D8D /* NSString+Util.m */,
+				473FB9AE1992CBC400AC3D8D /* DraggableImageView.h */,
+				473FB9AF1992CBC400AC3D8D /* DraggableImageView.m */,
+			);
+			path = iBeaconManager;
+			sourceTree = "<group>";
+		};
+		47AFBFF2199257B1009C7B15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47AFBFF3199257B1009C7B15 /* iBeaconManager-Info.plist */,
+				47AFBFF4199257B1009C7B15 /* InfoPlist.strings */,
+				47AFBFF7199257B1009C7B15 /* main.m */,
+				47AFBFF9199257B1009C7B15 /* iBeaconManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47AFC013199257B1009C7B15 /* iBeaconManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				47AFC019199257B1009C7B15 /* iBeaconManagerTests.m */,
+				47AFC014199257B1009C7B15 /* Supporting Files */,
+			);
+			path = iBeaconManagerTests;
+			sourceTree = "<group>";
+		};
+		47AFC014199257B1009C7B15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47AFC015199257B1009C7B15 /* iBeaconManagerTests-Info.plist */,
+				47AFC016199257B1009C7B15 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47AFBFE7199257B1009C7B15 /* NotebeAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47AFC01D199257B1009C7B15 /* Build configuration list for PBXNativeTarget "NotebeAdmin" */;
+			buildPhases = (
+				47AFBFE4199257B1009C7B15 /* Sources */,
+				47AFBFE5199257B1009C7B15 /* Frameworks */,
+				47AFBFE6199257B1009C7B15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotebeAdmin;
+			productName = NotebeAdmin;
+			productReference = 47AFBFE8199257B1009C7B15 /* NotebeAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47AFC00B199257B1009C7B15 /* NotebeAdminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47AFC020199257B1009C7B15 /* Build configuration list for PBXNativeTarget "NotebeAdminTests" */;
+			buildPhases = (
+				47AFC008199257B1009C7B15 /* Sources */,
+				47AFC009199257B1009C7B15 /* Frameworks */,
+				47AFC00A199257B1009C7B15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47AFC012199257B1009C7B15 /* PBXTargetDependency */,
+			);
+			name = NotebeAdminTests;
+			productName = NotebeAdminTests;
+			productReference = 47AFC00C199257B1009C7B15 /* NotebeAdminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47AFBFE0199257B1009C7B15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Arbatros;
+				TargetAttributes = {
+					47AFC00B199257B1009C7B15 = {
+						TestTargetID = 47AFBFE7199257B1009C7B15;
+					};
+				};
+			};
+			buildConfigurationList = 47AFBFE3199257B1009C7B15 /* Build configuration list for PBXProject "iBeaconManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47AFBFDF199257B1009C7B15;
+			productRefGroup = 47AFBFE9199257B1009C7B15 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 473FB96219925ED500AC3D8D /* Products */;
+					ProjectRef = 473FB96119925ED500AC3D8D /* NoteBEKit.xcodeproj */;
+				},
+				{
+					ProductGroup = 473FB96B19925EE900AC3D8D /* Products */;
+					ProjectRef = 473FB96A19925EE900AC3D8D /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				47AFBFE7199257B1009C7B15 /* NotebeAdmin */,
+				47AFC00B199257B1009C7B15 /* NotebeAdminTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		473FB96719925ED500AC3D8D /* libNoteBEKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libNoteBEKit.a;
+			remoteRef = 473FB96619925ED500AC3D8D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		473FB96919925ED500AC3D8D /* NoteBEKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NoteBEKitTests.xctest;
+			remoteRef = 473FB96819925ED500AC3D8D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		473FB97919925EE900AC3D8D /* libPods.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPods.a;
+			remoteRef = 473FB97819925EE900AC3D8D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4763AA0C1CCB5CA1003C2A06 /* libAFNetworkActivityLogger.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAFNetworkActivityLogger.a;
+			remoteRef = 4763AA0B1CCB5CA1003C2A06 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4763AA0E1CCB5CA1003C2A06 /* libAFNetworking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAFNetworking.a;
+			remoteRef = 4763AA0D1CCB5CA1003C2A06 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4763AA101CCB5CA1003C2A06 /* libDACircularProgress.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDACircularProgress.a;
+			remoteRef = 4763AA0F1CCB5CA1003C2A06 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4763AA121CCB5CA1003C2A06 /* libFMDB.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFMDB.a;
+			remoteRef = 4763AA111CCB5CA1003C2A06 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4763AA141CCB5CA1003C2A06 /* libJSQMessagesViewController.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libJSQMessagesViewController.a;
+			remoteRef = 4763AA131CCB5CA1003C2A06 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4763AA161CCB5CA1003C2A06 /* libJSQSystemSoundPlayer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libJSQSystemSoundPlayer.a;
+			remoteRef = 4763AA151CCB5CA1003C2A06 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4763AA181CCB5CA1003C2A06 /* libMBProgressHUD.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMBProgressHUD.a;
+			remoteRef = 4763AA171CCB5CA1003C2A06 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4763AA1A1CCB5CA1003C2A06 /* libMWPhotoBrowser.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMWPhotoBrowser.a;
+			remoteRef = 4763AA191CCB5CA1003C2A06 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4763AA1C1CCB5CA1003C2A06 /* MWPhotoBrowser.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MWPhotoBrowser.bundle;
+			remoteRef = 4763AA1B1CCB5CA1003C2A06 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4763AA1E1CCB5CA1003C2A06 /* libMYBlurIntroductionView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMYBlurIntroductionView.a;
+			remoteRef = 4763AA1D1CCB5CA1003C2A06 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4763AA201CCB5CA1003C2A06 /* libMZDayPicker.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMZDayPicker.a;
+			remoteRef = 4763AA1F1CCB5CA1003C2A06 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4763AA221CCB5CA1003C2A06 /* libRESideMenu.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRESideMenu.a;
+			remoteRef = 4763AA211CCB5CA1003C2A06 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4763AA241CCB5CA1003C2A06 /* libSDWebImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDWebImage.a;
+			remoteRef = 4763AA231CCB5CA1003C2A06 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4763AA261CCB5CA1003C2A06 /* libSTTwitter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSTTwitter.a;
+			remoteRef = 4763AA251CCB5CA1003C2A06 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47AFBFE6199257B1009C7B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473FB9B81993749F00AC3D8D /* SVProgressHUD.bundle in Resources */,
+				47AFC002199257B1009C7B15 /* Main_iPad.storyboard in Resources */,
+				47AFC007199257B1009C7B15 /* Images.xcassets in Resources */,
+				47AFBFFF199257B1009C7B15 /* Main_iPhone.storyboard in Resources */,
+				47AFBFF6199257B1009C7B15 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47AFC00A199257B1009C7B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AFC018199257B1009C7B15 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47AFBFE4199257B1009C7B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473FB9B01992CBC400AC3D8D /* DraggableImageView.m in Sources */,
+				473FB9B91993749F00AC3D8D /* SVProgressHUD.m in Sources */,
+				47AFC005199257B1009C7B15 /* ViewController.m in Sources */,
+				473FB9A41992609600AC3D8D /* NSString+Util.m in Sources */,
+				47AFBFFC199257B1009C7B15 /* AppDelegate.m in Sources */,
+				473FB99C19925FF200AC3D8D /* ZoomScrollView.m in Sources */,
+				473FB9A11992604400AC3D8D /* UIImageView+Util.m in Sources */,
+				47AFBFF8199257B1009C7B15 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47AFC008199257B1009C7B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AFC01A199257B1009C7B15 /* iBeaconManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47AFC012199257B1009C7B15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47AFBFE7199257B1009C7B15 /* NotebeAdmin */;
+			targetProxy = 47AFC011199257B1009C7B15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47AFBFF4199257B1009C7B15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47AFBFF5199257B1009C7B15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		47AFBFFD199257B1009C7B15 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47AFBFFE199257B1009C7B15 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		47AFC000199257B1009C7B15 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47AFC001199257B1009C7B15 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		47AFC016199257B1009C7B15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47AFC017199257B1009C7B15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47AFC01B199257B1009C7B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47AFC01C199257B1009C7B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47AFC01E199257B1009C7B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBeaconManager/iBeaconManager-Prefix.pch";
+				INFOPLIST_FILE = "iBeaconManager/iBeaconManager-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.admin.iBeaconManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/onurkilic/Documents/Personal/iOSWorkspace/NoteBEKit/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		47AFC01F199257B1009C7B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBeaconManager/iBeaconManager-Prefix.pch";
+				INFOPLIST_FILE = "iBeaconManager/iBeaconManager-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.admin.iBeaconManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/onurkilic/Documents/Personal/iOSWorkspace/NoteBEKit/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		47AFC021199257B1009C7B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NotebeAdmin.app/NotebeAdmin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotebeAdmin/NotebeAdmin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NotebeAdminTests/NotebeAdminTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		47AFC022199257B1009C7B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NotebeAdmin.app/NotebeAdmin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotebeAdmin/NotebeAdmin-Prefix.pch";
+				INFOPLIST_FILE = "NotebeAdminTests/NotebeAdminTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47AFBFE3199257B1009C7B15 /* Build configuration list for PBXProject "iBeaconManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AFC01B199257B1009C7B15 /* Debug */,
+				47AFC01C199257B1009C7B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47AFC01D199257B1009C7B15 /* Build configuration list for PBXNativeTarget "NotebeAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AFC01E199257B1009C7B15 /* Debug */,
+				47AFC01F199257B1009C7B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47AFC020199257B1009C7B15 /* Build configuration list for PBXNativeTarget "NotebeAdminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AFC021199257B1009C7B15 /* Debug */,
+				47AFC022199257B1009C7B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47AFBFE0199257B1009C7B15 /* Project object */;
+}

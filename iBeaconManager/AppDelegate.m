@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  NotebeAdmin
+//  iBeaconManager
 //
 //  Created by Onur Kılıç on 06/08/14.
 //  Copyright (c) 2014 Arbatros. All rights reserved.
